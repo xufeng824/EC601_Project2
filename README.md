@@ -13,9 +13,9 @@ One of the important things is building a search query which can be seen as a fi
 <img width="826" alt="截屏2022-10-05 下午12 38 53" src="https://user-images.githubusercontent.com/48322294/194114821-90a4b131-b6fd-490a-b5b5-8499530397f0.png">
 The results of the test programs are including author_id, edit_history_tweet_ids, id and text.
 From the official documentationm 
-id(Unique identifier of this Tweet. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers) 
-text(The content of the Tweet)
-author_id(Unique identifier of this user. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers)
+id(Unique identifier of this Tweet. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers)<br>
+text(The content of the Tweet)<br>
+author_id(Unique identifier of this user. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers)<br>
 edit_history_tweet_ids(Unique identifiers indicating all versions of an edited Tweet. For Tweets with no edits, there will be one ID. For Tweets with an edit history, there will be multiple IDs, arranged in ascending order reflecting the order of edit, with the most recent version in the last position of the array)
 
 ## Google NLP APIs
