@@ -26,3 +26,7 @@ The program uses analyze_sentiment method from LanguageServiceClient Class (http
 ### Results
 <img width="398" alt="截屏2022-10-05 下午2 36 13" src="https://user-images.githubusercontent.com/48322294/194136702-622f94e0-ffd1-4076-80c3-c2479667d65a.png">
 The result shows the score(relatively positive) and the magnitude(relatively emotional)
+
+
+## Botometer APIs
+The Botometer APIs is based on Rapid API(https://rapidapi.com/hub)
