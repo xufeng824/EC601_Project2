@@ -16,6 +16,13 @@ From the official documentationm
 id(Unique identifier of this Tweet. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers)<br>
 text(The content of the Tweet)<br>
 author_id(Unique identifier of this user. This is returned as a string in order to avoid complications with languages and tools that cannot handle large integers)<br>
-edit_history_tweet_ids(Unique identifiers indicating all versions of an edited Tweet. For Tweets with no edits, there will be one ID. For Tweets with an edit history, there will be multiple IDs, arranged in ascending order reflecting the order of edit, with the most recent version in the last position of the array)
+edit_history_tweet_ids(Unique identifiers indicating all versions of an edited Tweet. For Tweets with no edits, there will be one ID. <br>
+For Tweets with an edit history, there will be multiple IDs, arranged in ascending order reflecting the order of edit, with the most recent version in the last position of the array)
 
 ## Google NLP APIs
+For testing Google APIs, I referenced official documentation(https://cloud.google.com/natural-language/docs/reference/libraries).<br>
+The program uses analyze_sentiment method from LanguageServiceClient Class (https://cloud.google.com/python/docs/reference/language/latest/google.cloud.language_v1.services.language_service.LanguageServiceClient), which provides text analysis operations such as sentiment analysis and entity recognition.<br> The test program is GNAPI_Test01.py.
+
+### Results
+<img width="398" alt="截屏2022-10-05 下午2 36 13" src="https://user-images.githubusercontent.com/48322294/194136702-622f94e0-ffd1-4076-80c3-c2479667d65a.png">
+The result shows the score(relatively positive) and the magnitude(relatively emotional)
