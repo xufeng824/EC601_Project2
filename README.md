@@ -30,3 +30,5 @@ The result shows the score(relatively positive) and the magnitude(relatively emo
 
 ## Botometer APIs
 The Botometer APIs is based on Rapid API(https://rapidapi.com/hub)
+Test endpoint:
+<img width="250" alt="截屏2022-10-07 上午11 21 51" src="https://user-images.githubusercontent.com/48322294/194590174-7aeefc53-221a-4b3b-aeeb-8c64277c344d.png">
