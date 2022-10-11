@@ -36,5 +36,5 @@ Test endpoint:
 
 ## User Stories
 I, the shop owner, wants to do the statistical review about how people feel about my shop.<br>
-I, social science researcher, wants to do my research projects.<br>
-I, the investor, wants to know what kind of areas are people intrested in.
+I, someone looking for a shop to shopping, wants to find how others feel about the shop.<br>
+I, the supervision department, wants to find if there are some non-compliant things done by the shop owner and reflected by the customers.
